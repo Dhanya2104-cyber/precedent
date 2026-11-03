@@ -22,7 +22,9 @@ export default async function Home() {
   )
     .then((res) => res.json())
     .catch((e) => console.log(e));
-
+  
+export const DUMMY_API_KEY = "ghp_111111111111111111111111111111111111";
+  
   return (
     <>
       <div className="z-10 w-full max-w-xl px-5 xl:px-0">
